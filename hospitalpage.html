@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,700" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+    
+
+
+
     <title>Hospital/Clinic</title>
     <style>
       * {
@@ -15,13 +24,13 @@
         font-family: "Dosis", sans-serif;
         width:100%;
         height:100vh;
-        background: url(image/bb2.jpg) no-repeat center;
+        background: url(image/c.jpg) no-repeat center;
         background-size: cover;
       }
       .navbar{
         width:300px;
         height:100%;
-        background-color:DodgerBlue;
+        background-color:rgb(247, 114, 90);
         position:fixed;
         top:0;
         right:-300px;
@@ -51,7 +60,7 @@
       .line{
         width:100%;
         height:3px;
-        background-color:blue;
+        background-color:rgb(161, 161, 161);
         transition: all 0.8s;
 
       }
@@ -92,7 +101,7 @@
         content: "";
         width:100%;
         height:2px;
-        background-color: lightblue;
+        background-color: rgb(206, 199, 199);
         position:absolute;
         right:0;
         transform:scalex(0);
@@ -110,19 +119,30 @@
       .nav-link:hover::after{
         transform: scalex(1);
       }
+
+      
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
     </style>
 
   </head>
   <body>
+    
     <nav>
       <div class="container">
-        <h1 style="border:5px solid blue; font-size: 35px; background-color:#d5f4e6; text-transform: uppercase; text-align: center; border-radius:15px; margin: 0px 500px 0px 500px; padding: 5px;">Hospital/Clinic</h1>
+        <h1 class="anta-regular" style="border:0px solid rgb(255, 126, 126); font-size: 35px;  text-transform: uppercase; text-align: center;width:fit-content; border-radius:15px; margin: 0px 500px 0px 500px; padding: 25px;">Hospital</h1>
       </div>
+      <div class="container">
+        <img src="image/f.png" style="border-radius: 20px; margin-left: 16%;height:  400px; width:850px;" alt="" srcset="">
+       </div>
     </nav>
       <div class="container">
       <nav class="navbar">
         <div class="hamburger-menu">
-          <div class="line line-1"></div>
+          <div class="line line-1 "></div>
           <div class="line line-2"></div>
           <div class="line line-3"></div>
         </div>

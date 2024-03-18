@@ -4,7 +4,7 @@
     ?>
 <!DOCTYPE html>
 <html>
-<?php $title="Blood Bank Management System | home page"; ?>
+<?php $title="HemoGlow | home page"; ?>
 <?php require 'head.php'; ?>
 <head>
   <title></title>
@@ -14,9 +14,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   
 </head>
-<body>
+<body style="   background: linear-gradient(to bottom, pink 0%, #ce345a 100%) no-repeat;">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Blood Bank Management System</a>
+  <a class="navbar-brand" href="#">HemoGlow</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -53,13 +53,13 @@
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="image/slide-1.jpg" alt="Los Angeles" width="1100" height="500">
+      <img src="image/aa.jpg" alt="Los Angeles" width="1100" height="500">
     </div>
     <div class="carousel-item">
       <img src="image/cc1.jpg" alt="Chicago" width="1100" height="500">
     </div>
     <div class="carousel-item">
-      <img src="image/blog-4.png" alt="New York" width="1100" height="500">
+      <img src="image/bb.png" alt="New York" width="1100" height="500">
     </div>
   </div>
   
@@ -92,18 +92,17 @@
 </section>
 
 
-<section class="my-5">
+<section class="">
   <div class="py-5">
     <h2 class="text-center">Contact Us</h2>
   </div>
-  <div>
-  <p class="text-center bg-dark text-white">Chandana GV - +91-9902477354, gchandana7799@gmail.com<br>Rithish Reddy - +91-9380073437, rithishreddy7007@gmail.com<br>Jasti SriHarsha - +91-9110342158, sri814823@gmail.com<br>Balaji Subhash - +91-7036739735, gbalajisubash@gmail.com<br>Bhaskar SaiRam - +91-8374827408, k.bsairam1210@gmail.com</p>
-  <a href="contact.html"> </a>
+  <div class="py-10">
+  <p class="text-center bg-dark text-white ">Santhosh Kumar - +91-6383081471, @santhosh.Kumar<br>Sibi Chakraborthy - +91-9488476751, @sibi_5161<br>
+
   </div>
 </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <?php require 'footer.php'; ?>
 </body>
 </html>

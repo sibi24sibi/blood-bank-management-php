@@ -1,6 +1,6 @@
 body{
     
-        background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%) no-repeat;
+        background: linear-gradient(to bottom, #ffffff 0%, #ce345a 100%) no-repeat;
         height: 100%;
     margin: 0;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body{
 }
 
 .fas{
-    color: #5851DB; 
+    color: #f15539; 
 }
 
 .card{
@@ -37,8 +37,8 @@ tr,th,td{
 margin-left: 10px; 
 }
 
-.navbar-brand{
-    text-shadow: 1px 1px 2px rgb(145, 255, 0), 0 0 50px black, 0 0 5px white;
+.navbar-brand {
+    text-shadow: 1px 1px 2px #df2f2f, 0 0 50px black, 0 0 5px white;
     font-weight: bold;
     font-size: 1.5em;
 }
@@ -87,8 +87,11 @@ a:link{
 }
 
 .error{
-    border:1px solid rgb(0, 255, 34);
+    border:1px solid rgb(255, 0, 0);
     border-left: 5px solid red;
     border-right: 5px solid red;
 }
 
+.nav-link{
+    color: blue;
+}

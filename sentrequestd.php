@@ -17,7 +17,7 @@ session_start();
 <?php require 'head.php'; ?>
 <style>
     body{
-    background: url(image/p4.jpg) no-repeat center;
+    background: url(image/e.jpg) no-repeat center;
     background-size: cover;
     min-height: 0;
     height: 650px;
@@ -35,7 +35,7 @@ session_start();
 
 		<?php require 'message.php'; ?>
 
-	<table class="table table-responsive table-striped rounded mb-5">
+	<table class="table bg-light table-striped rounded mb-5">
 		<tr><th colspan="8" class="title">Sent requests</th></tr>
 		<tr>
 			<th>#</th>
@@ -53,7 +53,7 @@ session_start();
                 if ($result) {
                     $row =mysqli_num_rows( $result);
                     if ($row) { //echo "<b> Total ".$row." </b>";
-                }else echo '<b style="color:white;background-color:red;padding:7px;border-radius: 15px 50px;">You have not requested yet. </b>';
+                }else echo '<b style="opacity:80%;color:white;background-color:blue;padding:7px;border-radius: 15px 50px;">You have not requested yet. </b>';
             }
             ?>
             </div>

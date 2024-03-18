@@ -21,8 +21,8 @@ else {
 <?php require 'head.php';?>
 <style>
     body{
-    background: url(jastimage/bb18.jpg) no-repeat center;
-    background-size: cover;
+    background: url(image/d.jpg) repeat center;
+    background-size:cover;
     min-height: 0;
     height: 650px;
   }

@@ -15,7 +15,7 @@ $result = mysqli_query($conn, $sql);
 <?php $title="Bloodbank | Available Blood Samples"; ?>
 <?php require 'head.php'; ?><style>
     body{
-    
+    background-image: url(image/e.jpg) repeat center;
     background-size: cover;
     min-height: 0;
     height: 100%;

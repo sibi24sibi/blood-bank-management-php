@@ -12,11 +12,19 @@
     <div class="container cont">
 
    <?php require 'message.php'; ?>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
+
 
         <div class="row justify-content-center">
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-xs-6 mb-5" style="width: 60%">
                 <div class="card">
-                    <img src="image/bg.png" class="card-img-top">
+                    <img src="image/a.jpg" style="border-radius :15px;" class="card-img-top">
                 </div>
             </div>
 
@@ -24,48 +32,48 @@
             <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-5">
                 <div class="card">
-                    <div class="card-header text-center">A+</div>
-                    <div class="card-body">
+                    <div class="card-header text-center anta-regular">A+</div>
+                    <div class="card-body farro-light">
                         If you are A+: You can give blood to A+ and AB+. You can receive blood from A+, A-, O+ and O-
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-5">
                 <div class="card">
-                    <div class="card-header text-center">A-</div>
-                    <div class="card-body">
+                    <div class="card-header text-center anta-regular">A-</div>
+                    <div class="card-body farro-light">
                         If you are A-: You can give blood to A-, A+, AB- and AB+. You can receive blood from A- and O-. 
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-5">
                 <div class="card">
-                    <div class="card-header text-center">B+</div>
-                    <div class="card-body">
+                    <div class="card-header text-center anta-regular">B+</div>
+                    <div class="card-body farro-light">
                          You can give blood to A+ and AB+. You can receive blood from A+, A-, O+ and O-.
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-5">
                 <div class="card">
-                    <div class="card-header text-center">B-</div>
-                    <div class="card-body">
+                    <div class="card-header text-center anta-regular">B-</div>
+                    <div class="card-body farro-light">
                         If you are B-: You can give blood to B-, B+, AB+ and AB-, You can receive blood from B- and O-.You can give blood to B+ and AB+.
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-5">
                 <div class="card">
-                    <div class="card-header text-center">AB+</div>
-                    <div class="card-body">
+                    <div class="card-header text-center anta-regular">AB+</div>
+                    <div class="card-body farro-light">
                          People with AB+ blood can receive red blood cells from any blood type. This means that demand for AB+ can donate with AB only.
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-5">
                 <div class="card">
-                    <div class="card-header text-center">AB-</div>
-                    <div class="card-body"> 
+                    <div class="card-header text-center anta-regular">AB-</div>
+                    <div class="card-body farro-light"> 
                          AB- patients can receive red blood cells from all negative blood types.
                          AB- can give red blood cells to both AB- and AB+ blood types.
                     </div>
@@ -73,8 +81,8 @@
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-5">
                 <div class="card">
-                    <div class="card-header text-center">O+</div>
-                    <div class="card-body">
+                    <div class="card-header text-center anta-regular">O+</div>
+                    <div class="card-body farro-light">
                         Blood O+ can donate to A+, B+, AB+ and O+ Blood
                         Group O can donate red blood cells to anybody. It's the universal donor.
                     </div>
@@ -82,8 +90,8 @@
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-5">
                 <div class="card">
-                    <div class="card-header text-center">O-</div>
-                    <div class="card-body">
+                    <div class="card-header text-center anta-regular">O-</div>
+                    <div class="card-body farro-light">
                         O- can donate to A+, A-, B+, B-, AB+, AB-, O+ and O- Blood
                         People with O negative blood can only receive red cell donations from O negative donors.
                     </div>
@@ -132,6 +140,41 @@
     </div>
 
     <?php require 'footer.php'; ?>
+<style>
+
+.farro-light {
+  font-family: "Farro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.farro-regular {
+  font-family: "Farro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.farro-medium {
+  font-family: "Farro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.farro-bold {
+  font-family: "Farro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    </style>
 
 </body>
+
 </html>

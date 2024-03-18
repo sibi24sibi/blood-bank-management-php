@@ -12,5 +12,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="css/style.css" rel="stylesheet"/>
-    <link rel="shortcut icon" type="image/jpeg" href="image/favicon.jpg">
+    <link rel="shortcut icon" type="image/jpeg" href="image/Designer-removebg-preview.png">
 </head>

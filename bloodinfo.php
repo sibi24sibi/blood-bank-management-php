@@ -13,7 +13,7 @@
 <?php require 'head.php'; ?>
 <style>
     body{
-    background: url(image/p1.jpg) no-repeat center;
+    background: url(image/e.jpg) repeat center;
     background-size: cover;
     min-height: 0;
     height: 100%;
@@ -68,8 +68,8 @@
     $result = mysqli_query($conn, $sql);
   }
   ?>
-    <div class="col-lg-4 col-md-5 col-sm-6 col-xs-7 mb-5">
-          <table class="table table-striped table-responsive">
+    <div class="col-lg-4 col-md-5 col-sm-6 col-xs-7 mb-5 " style="border-radius:20px;">
+          <table class="table table-striped  bg-light " style=" opacity :70%; ">
             <th colspan="4" class="title">Blood Bank</th>
             <tr>
               <th>#</th>
@@ -82,7 +82,7 @@
                 if ($result) {
                     $row =mysqli_num_rows( $result);
                     if ($row) { //echo "<b> Total ".$row." </b>";
-                }else echo '<b style="color:white;background-color:red;padding:7px;border-radius: 15px 50px;">Nothing to show.</b>';
+                }else echo '<b style=" opacity:80%;color:white;background-color:blue;padding:7px;border-radius: 15px 50px;">Nothing to show.</b>';
             }
             ?>
             </div>
